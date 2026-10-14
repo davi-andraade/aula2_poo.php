@@ -33,7 +33,7 @@ class ContaBancaria{
     }
 }
 
-// CRIANDO OBJETOS DA CLASSE CONTA BANCÁRIA
+// CRIANDO OBJETO
 $conta1 = new ContaBancaria('Davi', 1000.00);
 $conta1->depositar(500.00);
 $conta1->sacar(200.00);
